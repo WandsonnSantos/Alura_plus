@@ -3,7 +3,6 @@
   padding: 0px;
 }
 
-
 :root {
   --branco: #ffffff;
   --cinza: #c0c0c0;
@@ -14,14 +13,12 @@
 body {
   background-color: var(--fundo);
   color: var(--branco);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
-  font-weight: 400px
 }
 
 h1.container__titulo {
   font-size: 2rem;
-  font-weight: 700px;
 }
 
 section.one {
@@ -61,7 +58,7 @@ a.botao_secundario {
   border: 2px solid var(--branco);
 }
 
-.container__aviso{
+.container__aviso {
   font-size: 12px;
   color: var(--cinza);
 }
@@ -106,7 +103,7 @@ div.container__flex {
   justify-content: space-around;
 }
 
-.container__flex>div>p {
+.container__flex > div > p {
   font-weight: bold;
   font-size: 1.8em;
 }
@@ -129,17 +126,32 @@ li {
   list-style: none;
 }
 
-li>a {
+li > a {
   text-decoration: none;
   color: var(--cinza);
   font-weight: bold;
 }
 
-li>a:hover {
+li > a:hover {
   color: var(--azul);
 }
 
-.direitos__rodape{
+.direitos__rodape {
   font-size: 0.8em;
   padding: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    background-image: none;
+    margin: 2em 2em;
+  }
+
+  .container__imagem {
+    width: 50vw;
+  }
+
+  .container__caixa {
+    margin: 2em 2em;
+  }
 }
