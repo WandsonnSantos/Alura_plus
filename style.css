@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+:root {
+  --branco: #ffffff;
+  --cinza: #c0c0c0;
+  --azul: #167bf7;
+  --fundo: #00030c;
+}
+
+body {
+  background-color: var(--fundo);
+  color: var(--branco);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400px
+}
+
+h1.container__titulo {
+  font-size: 2rem;
+  font-weight: 700px;
+}
+
+section.one {
+  background-image: url("img/Background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+section.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+div.container__caixa {
+  margin: 0 5em;
+}
+
+a.container__botao {
+  background-color: var(--azul);
+  border-radius: 5px;
+  padding: 1em;
+  color: var(--branco);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1em;
+}
+
+a.container__botao:hover {
+  box-shadow: 15px solid white;
+}
+
+a.botao_secundario {
+  background-color: transparent;
+  border: 2px solid var(--branco);
+}
+
+.container__aviso{
+  font-size: 12px;
+  color: var(--cinza);
+}
+
+img.container__imagem {
+  margin: 1em 0 2em 0;
+}
+
+img.imagem__secundaria {
+  width: 80%;
+}
+section.secundario {
+  margin: 0 10em;
+  align-items: center;
+}
+
+h1.container__titulo {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 0.2em;
+}
+
+p.texto__descriçao {
+  color: var(--cinza);
+}
+
+a.secundario__botao {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+div.container__descriçao {
+  padding: 4em;
+}
+
+section.container__terciario {
+  text-align: center;
+}
+
+div.container__flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container__flex>div>p {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10em;
+}
+
+div.rodape {
+  margin: 2em 20em;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+li>a {
+  text-decoration: none;
+  color: var(--cinza);
+  font-weight: bold;
+}
+
+li>a:hover {
+  color: var(--azul);
+}
+
+.direitos__rodape{
+  font-size: 0.8em;
+  padding: 12px;
+}
