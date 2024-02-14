@@ -141,7 +141,7 @@ li > a:hover {
   padding: 12px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1081px) {
   .container {
     background-image: none;
     display: block;
